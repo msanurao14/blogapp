@@ -43,3 +43,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 ruby '2.1.1'
 #ruby-gemset=railstutorial_rails_4_1
+
+group :production do
+   gem 'rails_12factor'
+end
